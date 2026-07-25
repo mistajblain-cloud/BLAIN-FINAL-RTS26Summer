@@ -1,6 +1,6 @@
 # SKIF-A7 SECURITY — Real-Time Systems Final Capstone
 
-## One sentence
+## Theme
 A security montoring system that detects tampering, built to demonstarte FreeRTOS scheduling and synchronization
 for an embedded systems role. 
 
