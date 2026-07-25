@@ -5,7 +5,7 @@ A security montoring system that detects tampering, built to demonstarte FreeRTO
 for an embedded systems role. 
 
 ## Demo
-- Video: <YouTube / Wokwi link>
+- Video: https://youtu.be/62XqjGxTQK4
 - Live Wokwi: BLAIN-FINAL-RTS26Summer https://wokwi.com/projects/470533965934939137
 
 ## Architecture
