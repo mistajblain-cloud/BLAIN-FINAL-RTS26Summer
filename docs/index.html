@@ -1,1 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>SKIF-A7 Security | RTS Capstone</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+    color:#222;
+}
+
+header{
+    background:#1a1a1a;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:3em;
+}
+
+header h2{
+    font-weight:normal;
+    color:#ffc904;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+section{
+    margin-bottom:50px;
+}
+
+h3{
+    border-bottom:3px solid #ffc904;
+    display:inline-block;
+    padding-bottom:5px;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+.button{
+    display:inline-block;
+    margin:10px;
+    padding:15px 25px;
+    background:#1a1a1a;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:bold;
+}
+
+.button:hover{
+    background:#ffc904;
+    color:black;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#1a1a1a;
+    color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>SKIF-A7 SECURITY</h1>
+
+<h2>Real-Time Systems Final Capstone</h2>
+
+<p>
+Joshua Blain • University of Central Florida
+</p>
+
+</header>
+
+<div class="container">
+
+<section>
+
+<h3>Project Overview</h3>
+
+<p>
+
+SKIF-A7 Security is an embedded security monitoring system developed on an ESP32
+using FreeRTOS. The project demonstrates real-time scheduling, interrupt handling,
+task synchronization, and deterministic software design through a simulated
+security application.
+
+</p>
+
+<p>
+
+The system includes four periodic tasks responsible for tamper detection,
+vibration analysis, integrity verification using CRC-32, and event
+prioritization. A GPIO interrupt uses a Direct Task Notification to wake a
+high-priority bottom-half task while a mutex protects the shared security state
+from race conditions.
+
+</p>
+
+</section>
+
+<section>
+
+<h3>Technologies</h3>
+
+<ul>
+
+<li>ESP32-S3</li>
+
+<li>FreeRTOS</li>
+
+<li>ESP-IDF</li>
+
+<li>Wokwi Simulation</li>
+
+<li>GitHub Pages</li>
+
+<li>Rate Monotonic Scheduling</li>
+
+<li>Worst-Case Execution Time (WCET) Analysis</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h3>Project Links</h3>
+
+<div class="buttons">
+
+<a class="button"
+href="https://youtu.be/62XqjGxTQK4"
+target="_blank">
+
+▶ Watch Demo
+
+</a>
+
+<a class="button"
+href="https://wokwi.com/projects/470533965934939137"
+target="_blank">
+
+💻 Open Wokwi
+
+</a>
+
+<a class="button"
+href="https://github.com/mistajblain-cloud/BLAIN-FINAL-RTS26Summer"
+target="_blank">
+
+📁 Source Code
+
+</a>
+
+</div>
+
+</section>
+
+</div>
+
+<footer>
+
+Real-Time Systems Summer 2026 • University of Central Florida
+
+</footer>
+
+</body>
+</html>
